@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(129, 58, 30);
+  color: aliceblue;
+}
+
+.bru-dark {
+  background-color: rgb(24, 21, 21);
+}
+
+.bru-white-text {
+  color: white !important;
+}
+
+/* Imagenes  */
+.small_image {
+  max-width: 33%;
+  height: auto;
+  /* border: solid lightgrey 5px; */
+}
+
+.big_image {
+  max-width: 100%;
+}
+
+.products img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* titulo de cada pagina */
+.principal_title {
+  text-align: center;
+}
+
+/* Navbar */
+.bru-navbar {
+  background-color: rgb(24, 21, 21);
+  justify-content: center;
+}
+
+.bru-navbar a {
+  color: white !important;
+}
+
+header img {
+  max-width: 100px;
+  max-height: 100px;
+  transition: transform 0.7s ease-in-out;
+  border-radius: 50%;
+}
+header img:hover {
+  transform: rotate(360deg);
+}
+
+.contact_icon {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+/* Cosas sobre los detalles */
+.detail {
+  background-color: rgb(177, 111, 50);
+  box-shadow: black 20px;
+}
+
+.detail h2 {
+  text-decoration: underline;
+  font-size: 2rem;
+}
+.detail ul {
+  list-style-type: none;
+}
+
+/* Cosas del about us */
+.about_us {
+  text-align: center;
+}
+.about_us img {
+  max-height: 300px;
+}
+
+/*# sourceMappingURL=styles.css.map */
